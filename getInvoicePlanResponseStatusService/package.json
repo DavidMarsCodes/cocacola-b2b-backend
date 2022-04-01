@@ -1,0 +1,25 @@
+{
+    "name": "get-invoice-plan-response-status-service",
+    "version": "1.0.7",
+    "description": "Gets the errors stored in dynamoDB and returns them.",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest",
+        "test:coverage": "jest --coverage",
+        "test:watch": "jest --watchAll"
+    },
+    "keywords": [],
+    "author": "Maximiliano Echevarria",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/jest": "^26.0.18",
+        "jest": "^26.6.3"
+    },
+    "dependencies": {
+        "dotenv": "^8.2.0",
+        "b2b-response": "^1.0.0",
+        "b2b-aws-repositories": "^1.0.0",
+        "b2b-aws-configs": "^1.0.0",
+        "b2b-erp": "^1.0.0"
+    }
+}

@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Lambda Function It should answer a validation error in case any of the required parameters are invalid. 1`] = `
+Array [
+  Array [
+    Object {
+      "countryId": "AR",
+      "cpgId": "001",
+      "createdTime": Any<String>,
+      "data": Array [
+        Object {
+          "erpChannelInput": "SFCoke",
+          "erpDocumentType": "FC",
+          "erpOrderAmount": 1000,
+          "erpOrderDatetime": "2020-12-31T00:00:00.000Z",
+          "erpOrderDeliveryDate": "2021-01-04T00:00:00.000Z",
+          "erpOrderId": "200111",
+          "erpOrderStatus": "created",
+          "erpPaymentMethod": "Contado",
+          "erpShippingInformation": "no aplica",
+          "orderId": null,
+        },
+      ],
+      "organizationId": "3043",
+      "transactionId": "1715ba2d-5b0b-4ba0-883b-c48a0de8a670",
+    },
+  ],
+]
+`;
+
+exports[`Lambda Function You should save orders in the dynamoDB database. 1`] = `
+Array [
+  Array [
+    Object {
+      "countryId": "AR",
+      "cpgId": "001",
+      "createdTime": Any<String>,
+      "data": Array [
+        Object {
+          "erpChannelInput": "SFCoke",
+          "erpDocumentType": "FC",
+          "erpOrderAmount": 1000,
+          "erpOrderDatetime": "2020-12-31T00:00:00.000Z",
+          "erpOrderDeliveryDate": "2021-01-04T00:00:00.000Z",
+          "erpOrderId": "200111",
+          "erpOrderStatus": "created",
+          "erpPaymentMethod": "Contado",
+          "erpShippingInformation": "no aplica",
+          "orderId": null,
+        },
+      ],
+      "organizationId": "3043",
+      "transactionId": "1715ba2d-5b0b-4ba0-883b-c48a0de8a670",
+    },
+  ],
+]
+`;
+
+exports[`Lambda Function You should save orders in the dynamoDB database. 2`] = `
+Array [
+  Array [
+    "OrderHistoryToUpsert",
+    Object {
+      "countryId": "AR",
+      "cpgId": "001",
+      "createdTime": Any<String>,
+      "data": Array [
+        Object {
+          "erpChannelInput": "SFCoke",
+          "erpDocumentType": "FC",
+          "erpOrderAmount": 1000,
+          "erpOrderDatetime": "2020-12-31T00:00:00.000Z",
+          "erpOrderDeliveryDate": "2021-01-04T00:00:00.000Z",
+          "erpOrderId": "200111",
+          "erpOrderStatus": "created",
+          "erpPaymentMethod": "Contado",
+          "erpShippingInformation": "no aplica",
+          "orderId": null,
+        },
+      ],
+      "organizationId": "3043",
+      "transactionId": "1715ba2d-5b0b-4ba0-883b-c48a0de8a670",
+    },
+  ],
+]
+`;

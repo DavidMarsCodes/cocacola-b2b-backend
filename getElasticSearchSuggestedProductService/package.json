@@ -1,0 +1,31 @@
+{
+    "name": "get-elasticsearch-suggested-product",
+    "version": "1.0.10",
+    "description": "Gets the suggested products from the ElasticSearch engine.",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest",
+        "test:coverage": "jest --coverage",
+        "test:watch": "jest --watchAll"
+    },
+    "author": "Maximiliano Echevarria",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/jest": "^26.0.15",
+        "jest": "^26.6.2"
+    },
+    "dependencies": {
+        "elasticsearch": "^16.7.2",
+        "http-aws-es": "^6.0.0",
+        "aws-sdk": "^2.824.0",
+        "@elastic/elasticsearch": "^7.10.0",
+        "dotenv": "^8.2.0",
+        "b2b-aws-elasticsearch": "^1.0.0",
+        "b2b-response": "^1.0.0",
+        "b2b-repositories": "^1.0.0",
+        "b2b-aws-configs": "^1.0.0",
+        "b2b-managers": "^1.0.89",
+        "b2b-access-control": "^1.0.0",
+        "b2b-cache-repository": "^1.0.0"
+    }
+}

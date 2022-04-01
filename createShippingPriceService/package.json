@@ -1,0 +1,25 @@
+{
+    "name": "create-shipping-price-service",
+    "version": "1.0.8",
+    "description": "Lambda to create shipping price service in DynamoDB",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest",
+        "test:coverage": "jest --coverage",
+        "test:watch": "jest --watchAll"
+    },
+    "author": "Facundo Gait",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/jest": "^26.0.15",
+        "jest": "^26.6.3",
+        "dotenv": "^8.2.0"
+    },
+    "dependencies": {
+        "b2b-response": "^1.0.0",
+        "b2b-repositories": "^1.0.0",
+        "b2b-aws-repositories": "^1.0.0",
+        "b2b-aws-configs": "^1.0.0",
+        "b2b-managers": "^1.0.0"
+    }
+}

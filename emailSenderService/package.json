@@ -1,0 +1,27 @@
+{
+    "name": "email-sender-service",
+    "version": "1.0.16",
+    "description": "It allows the sending of notifications by email for changes of status or order confirmation.",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest",
+        "test:coverage": "jest --coverage",
+        "test:watch": "jest --watchAll"
+    },
+    "author": "Facundo Gait",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/jest": "^26.0.20",
+        "jest": "^26.6.3"
+    },
+    "dependencies": {
+        "b2b-aws-configs": "^1.0.0",
+        "b2b-aws-repositories": "^1.0.0",
+        "b2b-managers": "^1.0.0",
+        "b2b-response": "^1.0.0",
+        "b2b-ses": "^1.0.0",
+        "depcheck": "^1.4.0",
+        "dotenv": "^8.2.0",
+        "moment": "^2.29.1"
+    }
+}

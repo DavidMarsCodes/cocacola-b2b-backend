@@ -1,0 +1,27 @@
+{
+    "name": "get-order-invoice-service",
+    "version": "1.1.0",
+    "description": "gets an order's invoice",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest",
+        "test:coverage": "jest --coverage",
+        "test:watch": "jest --watchAll"
+    },
+    "author": "Alan Pipino",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/jest": "~26.0.20",
+        "jest": "~26.6.3"
+    },
+    "dependencies": {
+        "dotenv": "~8.2.0",
+        "aws-sdk": "~2.824.0",
+        "b2b-access-control": "~1.0.0",
+        "b2b-aws-configs": "~1.1.0",
+        "b2b-aws-s3": "~1.1.0",
+        "b2b-erp": "~1.1.0",
+        "b2b-managers": "~1.6.0",
+        "b2b-response": "~1.0.0"
+    }
+}

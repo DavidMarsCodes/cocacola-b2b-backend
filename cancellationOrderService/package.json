@@ -1,0 +1,29 @@
+{
+    "name": "cancellation-order-service",
+    "version": "1.0.1",
+    "description": "Notify and send the cancellation order from client in the b2b to an external ERP.",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest",
+        "test:coverage": "jest --coverage",
+        "test:watch": "jest --watchAll"
+    },
+    "author": "Alexis Porcel",
+    "license": "ISC",    
+    "devDependencies": {
+        "@types/jest": "~27.4.1",
+        "jest": "~27.5.1"
+    },    
+    "dependencies": {
+        "dotenv": "~16.0.0",
+        "depcheck": "~1.4.3",
+        "uuid": "~8.3.2",
+        "b2b-erp": "^1.0.0",
+        "b2b-response": "^1.0.0",
+        "b2b-aws-configs": "^1.0.0",
+        "b2b-managers": "^1.0.0",
+        "b2b-access-control": "^1.0.0",
+        "b2b-repositories": "^1.0.0",
+        "b2b-aws-sqs": "^1.0.0"
+    }
+}

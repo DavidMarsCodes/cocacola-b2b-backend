@@ -1,0 +1,37 @@
+{
+  "name": "create-partial-order-service",
+  "version": "1.0.95",
+  "description": "Post service for the creation of partial orders.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watchAll"
+  },
+  "author": "Emiliano Tognocchi",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "~26.0.15",
+    "jest": "~26.6.2"
+  },
+  "dependencies": {
+    "dotenv": "~8.2.0",
+    "@elastic/elasticsearch": "~7.10.0",
+    "elasticsearch": "~16.7.2",
+    "http-aws-es": "~6.0.0",
+    "aws-sdk": "~2.824.0",
+    "lodash": "~4.17.20",
+    "b2b-access-control": "~1.0.0",
+    "b2b-rounding": "~1.0.0",
+    "b2b-discounts": "~1.0.13",
+    "b2b-taxes": "~1.0.0",
+    "b2b-aws-configs": "~1.0.0",
+    "b2b-aws-repositories": "~1.0.0",
+    "b2b-cache-repository": "~1.0.0",
+    "b2b-discounts-handler": "~1.0.0",
+    "b2b-managers": "~1.0.89",
+    "b2b-repositories": "~1.2.3",
+    "b2b-response": "~1.0.10",
+    "b2b-aws-elasticsearch": "~1.0.0"
+  }
+}

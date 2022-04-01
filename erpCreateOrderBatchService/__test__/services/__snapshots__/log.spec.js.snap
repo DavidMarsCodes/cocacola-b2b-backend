@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Create Function You should create a log with status ERROR and the message property must contain an empty value in case it is not an axios error. 1`] = `
+Array [
+  Array [
+    Object {
+      "countryId": "AR",
+      "cpgId": "001",
+      "eventDatetime": Any<String>,
+      "eventInfo": "",
+      "eventResult": "ERROR",
+      "eventType": "RETRY",
+      "orderId": 16,
+      "organizationId": "3043",
+    },
+  ],
+]
+`;
+
+exports[`Create Function You should create a log with status ERROR. 1`] = `
+Array [
+  Array [
+    Object {
+      "countryId": "AR",
+      "cpgId": "001",
+      "eventDatetime": Any<String>,
+      "eventInfo": "Test Error",
+      "eventResult": "ERROR",
+      "eventType": "RETRY",
+      "orderId": 16,
+      "organizationId": "3043",
+    },
+  ],
+]
+`;
+
+exports[`Create Function You should create a log with status OK. 1`] = `
+Array [
+  Array [
+    Object {
+      "countryId": "AR",
+      "cpgId": "001",
+      "eventDatetime": Any<String>,
+      "eventInfo": "The operation has been successful. The order data was sent with id 16.",
+      "eventResult": "OK",
+      "eventType": "RETRY",
+      "orderId": 16,
+      "organizationId": "3043",
+    },
+  ],
+]
+`;

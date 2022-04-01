@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Lambda Function It should answer a validation error in case any of the required parameters are invalid. 1`] = `
+Array [
+  Array [
+    Object {
+      "createdTime": Any<String>,
+    },
+  ],
+]
+`;
+
+exports[`Lambda Function It should throw an error because of not being able to store the data in DynamoDB. 1`] = `
+Array [
+  Array [
+    Object {
+      "createdTime": Any<String>,
+    },
+  ],
+]
+`;
+
+exports[`Lambda Function You should save an order in the dynamoDB database. 1`] = `
+Array [
+  Array [
+    Object {
+      "createdTime": Any<String>,
+    },
+  ],
+]
+`;
+
+exports[`Lambda Function You should save an order in the dynamoDB database. 2`] = `
+Array [
+  Array [
+    "tableName",
+    Object {
+      "createdTime": Any<String>,
+    },
+  ],
+]
+`;

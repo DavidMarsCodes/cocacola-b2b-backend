@@ -1,0 +1,25 @@
+{
+    "name": "add-order-events-to-queue-service",
+    "version": "1.0.7",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest",
+        "test:coverage": "jest --coverage",
+        "test:watch": "jest --watchAll"
+    },
+    "devDependencies": {
+        "@types/jest": "^26.0.15",
+        "jest": "^26.6.3"
+    },
+    "dependencies": {
+        "dotenv": "^8.2.0",
+        "depcheck": "^1.4.0",
+        "b2b-aws-configs": "^1.0.0",
+        "b2b-response": "^1.0.0",
+        "b2b-aws-sqs": "^1.0.0"
+    },
+    "keywords": [],
+    "author": "maximiliano <maximiliano.echevarria>",
+    "license": "MIT"
+}

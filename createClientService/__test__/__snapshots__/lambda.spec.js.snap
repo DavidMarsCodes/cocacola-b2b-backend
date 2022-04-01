@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Lambda Function It should answer a validation error in case any of the required parameters are invalid. 1`] = `
+Array [
+  Array [
+    Object {
+      "clients": Array [
+        Object {
+          "address": Object {
+            "city": "San Isidro",
+            "doorNumber": "227",
+            "observations": "El unico lugar que vale la pena",
+            "state": "Buenos Aires",
+            "street": "Salguero",
+            "zipCode": "1609",
+          },
+          "clientId": "001AR3043-ERP-TEST-A",
+          "distributionChannel": "Masivo",
+          "erpClientId": "ERP_TEST-A",
+          "fantasyName": "TEST-A SA",
+          "fiscalId": "227777777722",
+          "fiscalName": "Test SA",
+          "locks": Array [
+            Object {
+              "erpLockId": "001AR3043-LOCK-DELETED",
+            },
+          ],
+          "parentClientId": "8888888",
+          "salesOrganization": "Test",
+        },
+      ],
+      "countryId": "AR",
+      "cpgId": "001",
+      "createdTime": Any<String>,
+      "organizationId": "3043",
+      "transactionId": "111111",
+    },
+  ],
+]
+`;
+
+exports[`Lambda Function It should return defualt error 1`] = `
+Array [
+  Array [
+    Object {
+      "clients": Array [
+        Object {
+          "address": Object {
+            "city": "San Isidro",
+            "doorNumber": "227",
+            "observations": "El unico lugar que vale la pena",
+            "state": "Buenos Aires",
+            "street": "Salguero",
+            "zipCode": "1609",
+          },
+          "clientId": "001AR3043-ERP-TEST-A",
+          "distributionChannel": "Masivo",
+          "erpClientId": "ERP_TEST-A",
+          "fantasyName": "TEST-A SA",
+          "fiscalId": "227777777722",
+          "fiscalName": "Test SA",
+          "locks": Array [
+            Object {
+              "erpLockId": "001AR3043-LOCK-DELETED",
+            },
+          ],
+          "parentClientId": "8888888",
+          "salesOrganization": "Test",
+        },
+      ],
+      "countryId": "AR",
+      "cpgId": "001",
+      "createdTime": Any<String>,
+      "organizationId": "3043",
+      "transactionId": "111111",
+    },
+  ],
+]
+`;
+
+exports[`Lambda Function You should save an order in the dynamoDB database. 1`] = `
+Array [
+  Array [
+    Object {
+      "clients": Array [
+        Object {
+          "address": Object {
+            "city": "San Isidro",
+            "doorNumber": "227",
+            "observations": "El unico lugar que vale la pena",
+            "state": "Buenos Aires",
+            "street": "Salguero",
+            "zipCode": "1609",
+          },
+          "clientId": "001AR3043-ERP-TEST-A",
+          "distributionChannel": "Masivo",
+          "erpClientId": "ERP_TEST-A",
+          "fantasyName": "TEST-A SA",
+          "fiscalId": "227777777722",
+          "fiscalName": "Test SA",
+          "locks": Array [
+            Object {
+              "erpLockId": "001AR3043-LOCK-DELETED",
+            },
+          ],
+          "parentClientId": "8888888",
+          "salesOrganization": "Test",
+        },
+      ],
+      "countryId": "AR",
+      "cpgId": "001",
+      "createdTime": Any<String>,
+      "organizationId": "3043",
+      "transactionId": "111111",
+    },
+  ],
+]
+`;

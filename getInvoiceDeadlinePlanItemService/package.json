@@ -1,0 +1,27 @@
+{
+  "name": "get-invoice-deadline-plan-item-service",
+  "version": "1.0.19",
+  "description": "this endpoint should return the billing closing time for the current day for the logged in customer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watchAll"
+  },
+  "author": "Marcos Noriega",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^26.0.15",
+    "jest": "^26.6.2"
+  },
+  "dependencies": {
+    "b2b-access-control": "^1.0.0",
+    "b2b-aws-configs": "^1.0.0",
+    "b2b-cache-repository": "^1.0.0",
+    "b2b-managers": "^1.0.0",
+    "b2b-repositories": "^1.0.0",
+    "b2b-response": "^1.0.0",
+    "dotenv": "^8.2.0",
+    "luxon": "^2.0.1"
+  }
+}

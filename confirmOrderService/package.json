@@ -1,0 +1,30 @@
+{
+    "name": "confirm-order-service",
+    "version": "1.0.25",
+    "description": "Post service for the confirm orders.",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest",
+        "test:coverage": "jest --coverage",
+        "test:watch": "jest --watchAll"
+    },
+    "author": "Emiliano Tognocchi",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/jest": "~26.0.15",
+        "jest": "~26.6.2"
+    },
+    "dependencies": {
+        "dotenv": "~8.2.0",
+        "lodash": "~4.17.21",
+        "uuid": "~8.3.2",
+        "b2b-response": "~1.0.0",
+        "b2b-repositories": "~1.1.1",
+        "b2b-aws-configs": "~1.0.0",
+        "b2b-managers": "~1.0.0",
+        "b2b-cache-repository": "~1.0.0",
+        "b2b-access-control": "~1.0.0",
+        "b2b-aws-repositories": "~1.0.0",
+        "b2b-aws-sqs": "~1.0.0"
+    }
+}

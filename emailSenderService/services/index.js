@@ -1,0 +1,16 @@
+module.exports = {
+  awsRepositories: require('b2b-aws-repositories'),
+  tableName: `${process.env.ENVIRONMENT.toLowerCase()}EmailTemplates`,
+  ses: require('b2b-ses'),
+  builder: require('./builder'),
+  getSourceEmail: require('./sourceEmail'),
+  getUrlAws: require('./urlAws'),
+  selectTemplateNameByStatus: require('./templateStrategy'),
+  statusTranslate: require('./statusTranslate'),
+  templateParser: require('./templateMapper'),
+  subjectParser: require('./subjectMapper'),
+  validations: require('./validations'),
+  experts: require('b2b-managers'),
+  getNameEmailTemplates: require('./getTemplates'),
+  HandlerDates: require('./handlerDatesAdapter'),
+};

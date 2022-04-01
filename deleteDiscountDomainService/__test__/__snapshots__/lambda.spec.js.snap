@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Delete Discount Lambda Function You should delete a discount in the dynamoDB database. 1`] = `
+Array [
+  Array [
+    Object {
+      "countryId": Any<String>,
+      "cpg": Any<String>,
+      "organizationId": Any<String>,
+    },
+  ],
+]
+`;

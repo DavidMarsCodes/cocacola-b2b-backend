@@ -1,0 +1,25 @@
+{
+    "name": "create-order-history-service",
+    "version": "1.0.9",
+    "description": "order data to save to DynamoDB",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest",
+        "test:coverage": "jest --coverage",
+        "test:watch": "jest --watchAll"
+    },
+    "keywords": [],
+    "author": "Emiliano Tognocchi",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/jest": "^26.0.18",
+        "jest": "^26.6.3"
+    },
+    "dependencies": {
+        "dotenv": "^8.2.0",
+        "b2b-response": "^1.0.0",
+        "b2b-aws-repositories": "^1.0.0",
+        "b2b-managers": "^1.0.0",
+        "b2b-aws-configs": "^1.0.0"
+    }
+}

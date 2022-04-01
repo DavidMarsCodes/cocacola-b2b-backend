@@ -1,0 +1,25 @@
+{
+    "name": "upsert-product-service",
+    "version": "1.0.8",
+    "description": "Upserts products in MySQL",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest",
+        "test:coverage": "jest --coverage",
+        "test:watch": "jest --watchAll"
+    },
+    "author": "Marcos Noriega",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/jest": "^26.0.15",
+        "jest": "^26.6.3"
+    },
+    "dependencies": {
+        "dotenv": "^8.2.0",
+        "b2b-response": "^1.0.0",
+        "b2b-repositories": "^1.0.0",
+        "b2b-aws-repositories": "^1.0.0",
+        "b2b-aws-configs": "^1.0.0",
+        "b2b-managers": "^1.0.0"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "name": "upsert-suggested-products-service",
+    "version": "1.0.12",
+    "description": "delete and insert suggested product in mysql",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest",
+        "test:coverage": "jest --coverage",
+        "test:watch": "jest --watchAll"
+    },
+    "author": "Marcos Noriega",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/jest": "^26.0.15",
+        "jest": "^26.6.3"
+    },
+    "dependencies": {
+        "b2b-aws-configs": "^1.0.0",
+        "b2b-aws-repositories": "^1.0.0",
+        "b2b-managers": "^1.0.0",
+        "b2b-repositories": "^1.0.0",
+        "b2b-response": "^1.0.0",
+        "lodash": "^4.17.21",
+        "dotenv": "^8.2.0"
+    }
+}

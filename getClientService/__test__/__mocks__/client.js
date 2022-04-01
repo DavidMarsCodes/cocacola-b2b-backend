@@ -1,0 +1,73 @@
+const clientMock = {
+  clientId: 1,
+  cpgId: '001',
+  organizationId: '3043',
+  countryId: 'CL',
+  erpClientId: 'ERP_CLIENT3',
+  fiscalId: '302222222221',
+  fiscalName: 'Nom Fiscal SA',
+  fantasyName: 'Nombre de fantasia  3',
+  parentClientId: null,
+  deleted: false,
+  salesOrganization: 'Organizacion de Ventas 1',
+  distributionChanel: 'Canal de distribucion 1',
+  address: {
+    street: 'Avenida Colon',
+    number: '110',
+    state: 'San Juan',
+    city: 'San Juan',
+    zipCode: '1108',
+    observations: 'Frente al correo central',
+  },
+  locks: [ {
+    lockId: 1,
+    description: 'Bloqueo de TEST',
+    lockSignin: false,
+    lockOrder: true,
+  } ],
+  updatedBy: null,
+  updatedTime: null,
+  transactionId: '123kdkdkkd12k3k3k',
+};
+
+const resMock = {
+  httpStatus: 200,
+  ok: true,
+  code: 200,
+  data: {
+    clientId: 1,
+    cpgId: '001',
+    organizationId: '3043',
+    countryId: 'CL',
+    erpClientId: 'ERP_CLIENT3',
+    fiscalId: '302222222221',
+    fiscalName: 'Nom Fiscal SA',
+    fantasyName: 'Nombre de fantasia  3',
+    parentClientId: null,
+    deleted: false,
+    salesOrganization: 'Organizacion de Ventas 1',
+    distributionChanel: 'Canal de distribucion 1',
+    address: {
+      street: 'Avenida Colon',
+      number: '110',
+      state: 'San Juan',
+      city: 'San Juan',
+      zipCode: '1108',
+      observations: 'Frente al correo central',
+    },
+    locks: [ {
+      lockId: 1,
+      description: 'Bloqueo de TEST',
+      lockSignin: false,
+      lockOrder: true,
+    } ],
+    updatedBy: null,
+    updatedTime: null,
+    transactionId: '123kdkdkkd12k3k3k',
+  },
+};
+
+module.exports = {
+  clientMock,
+  resMock,
+};

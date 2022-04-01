@@ -1,0 +1,13 @@
+# Visual Studio Code
+*.code-workspace
+.idea
+.vscode
+*/node_modules
+node_modules
+.env
+.env.QA
+.env.DEV
+*/coverage
+launch.json
+
+package-lock.json

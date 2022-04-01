@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Lambda Function It should answer a validation error in case any of the required parameters are invalid. 1`] = `
+Array [
+  Array [
+    Object {
+      "countryId": "AR",
+      "cpgId": "001",
+      "createdTime": Any<String>,
+      "data": Array [
+        Object {
+          "erpClientId": "ERP_TEST-B",
+          "erpProductId": "CC-R-0.5-VIDRIO",
+          "quantity": 10,
+        },
+      ],
+      "organizationId": "3043",
+      "transactionId": "111111",
+    },
+  ],
+]
+`;
+
+exports[`Lambda Function It should throw an error because of not being able to store the data in DynamoDB. 1`] = `
+Array [
+  Array [
+    Object {
+      "countryId": "AR",
+      "cpgId": "001",
+      "createdTime": Any<String>,
+      "data": Array [
+        Object {
+          "erpClientId": "ERP_TEST-B",
+          "erpProductId": "CC-R-0.5-VIDRIO",
+          "quantity": 10,
+        },
+      ],
+      "organizationId": "3043",
+      "transactionId": "111111",
+    },
+  ],
+]
+`;
+
+exports[`Lambda Function You should save an order in the dynamoDB database. 1`] = `
+Array [
+  Array [
+    Object {
+      "countryId": "AR",
+      "cpgId": "001",
+      "createdTime": Any<String>,
+      "data": Array [
+        Object {
+          "erpClientId": "ERP_TEST-B",
+          "erpProductId": "CC-R-0.5-VIDRIO",
+          "quantity": 10,
+        },
+      ],
+      "organizationId": "3043",
+      "transactionId": "111111",
+    },
+  ],
+]
+`;
+
+exports[`Lambda Function You should save an order in the dynamoDB database. 2`] = `
+Array [
+  Array [
+    "devSuggestedProductToUpsert",
+    Object {
+      "countryId": "AR",
+      "cpgId": "001",
+      "createdTime": Any<String>,
+      "data": Array [
+        Object {
+          "erpClientId": "ERP_TEST-B",
+          "erpProductId": "CC-R-0.5-VIDRIO",
+          "quantity": 10,
+        },
+      ],
+      "organizationId": "3043",
+      "transactionId": "111111",
+    },
+  ],
+]
+`;
